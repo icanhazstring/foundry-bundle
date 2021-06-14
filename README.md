@@ -1,4 +1,4 @@
-# symfony-zenstruck-bundle
+# symfony-foundry-bundle
 
 Delivers `zenstruck/foundry` alongside some additional configs and compile passes.
 to avoid some common problems when using `zenstruck/foundry` with symfony components.
