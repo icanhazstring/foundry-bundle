@@ -20,7 +20,7 @@
         "tseho/doctrine-assigned-identity": "^0.1.0"
     },
     "suggest": {
-        "tseho/doctrine-assigned-identity": "Add this to be able to define fixture id for entities with auto-generated ids"
+        "tseho/doctrine-assigned-identity": "This package allows you manually assign IDs to a Doctrine entity, even when the entity uses the stategies AUTO, SEQUENCE, IDENTITY or UUID"
     },
     "autoload": {
         "psr-4": {

@@ -19,3 +19,8 @@ return [
     icanhazstring\Foundry\Bundle\FoundryBundle::class => ['test' => true],
 ];
 ```
+
+## Suggestions
+- https://github.com/tseho/doctrine-assigned-identity (`tseho/doctrine-assigned-identity`)
+
+  This package allows you manually assign IDs to a Doctrine entity, even when the entity uses the stategies AUTO, SEQUENCE, IDENTITY or UUID.
