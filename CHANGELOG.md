@@ -12,6 +12,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 ### Security
 
+## [0.2.0] - 2021-06-15
+### Changed
+- Renamed package to `icanhazstring/foundry-bundle` as `bundle` already described symfony packages
+
 ## [0.1.0] - 2021-06-14
 ### Added
 - Added `RemoveWellKnownSchemaFilterPass` to remove blacklist filter for 

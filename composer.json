@@ -1,5 +1,5 @@
 {
-    "name": "icanhazstring/symfony-foundry-bundle",
+    "name": "icanhazstring/foundry-bundle",
     "description": "Additional configs and compiler passes to avoid some common problem when using zenstruck/foundry with symfony components",
     "type": "symfony-bundle",
     "require": {
@@ -19,7 +19,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "icanhazstring\\Symfony\\Foundry\\Bundle\\": "src"
+            "icanhazstring\\Foundry\\Bundle\\": "src"
         }
     }
 }

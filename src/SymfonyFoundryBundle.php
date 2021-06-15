@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace icanhazstring\Symfony\Foundry\Bundle;
+namespace icanhazstring\Foundry\Bundle;
 
 use icanhazstring\Symfony\Foundry\Bundle\DependencyInjection\RemoveWellKnownSchemaFilterPass;
 use Symfony\Component\DependencyInjection\ContainerBuilder;

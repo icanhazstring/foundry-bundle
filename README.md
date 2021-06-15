@@ -1,4 +1,4 @@
-# symfony-foundry-bundle
+# foundry-bundle
 
 Delivers `zenstruck/foundry` alongside some additional configs and compile passes.
 to avoid some common problems when using `zenstruck/foundry` with symfony components.
@@ -6,7 +6,7 @@ to avoid some common problems when using `zenstruck/foundry` with symfony compon
 ## Installation
 
 ```bash
-$ composer req icanhazstring/symfony-foundry-bundle
+$ composer req icanhazstring/foundry-bundle
 ```
 
 ## Config
@@ -16,6 +16,6 @@ in the `config/bundles.php` file of your project:
 ```php
 return [
     // ...
-    icanhazstring\Symfony\Foundry\Bundle\SymfonyFoundryBundle::class => ['test' => true],
+    icanhazstring\Foundry\Bundle\FoundryBundle::class => ['test' => true],
 ];
 ```
