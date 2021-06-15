@@ -6,7 +6,7 @@ to avoid some common problems when using `zenstruck/foundry` with symfony compon
 ## Installation
 
 ```bash
-$ composer req icanhazstring/foundry-bundle
+$ composer req --dev icanhazstring/foundry-bundle
 ```
 
 ## Config
