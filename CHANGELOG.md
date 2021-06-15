@@ -15,6 +15,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [0.2.0] - 2021-06-15
 ### Changed
 - Renamed package to `icanhazstring/foundry-bundle` as `bundle` already described symfony packages
+### Added
+- Added suggestion to `tseho/doctrine-assigned-identity` to be able to assign fixture ids for entities
+  with auto-generated ids
 
 ## [0.1.0] - 2021-06-14
 ### Added
