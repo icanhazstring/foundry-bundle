@@ -1,15 +1,7 @@
 {
     "name": "icanhazstring/foundry-bundle",
-    "description": "Additional configs and compiler passes to avoid some common problem when using zenstruck/foundry with symfony components",
     "type": "symfony-bundle",
-    "require": {
-        "symfony/dependency-injection": "^5.2",
-        "symfony/http-kernel": "^5.2",
-        "zenstruck/foundry": "^1.11"
-    },
-    "require-dev": {
-        "roave/security-advisories": "dev-latest"
-    },
+    "description": "Additional configs and compiler passes to avoid some common problem when using zenstruck/foundry with symfony components",
     "license": "MIT",
     "authors": [
         {
@@ -17,6 +9,19 @@
             "email": "ando@icanhazstring.net"
         }
     ],
+    "require": {
+        "symfony/config": "^5.2",
+        "symfony/dependency-injection": "^5.2",
+        "symfony/http-kernel": "^5.2",
+        "zenstruck/foundry": "^1.11"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-latest",
+        "tseho/doctrine-assigned-identity": "^0.1.0"
+    },
+    "suggest": {
+        "tseho/doctrine-assigned-identity": "Add this to be able to define fixture id for entities with auto-generated ids"
+    },
     "autoload": {
         "psr-4": {
             "icanhazstring\\Foundry\\Bundle\\": "src"
