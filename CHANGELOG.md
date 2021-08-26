@@ -12,7 +12,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 ### Security
 
-## [0.3.0] - TBA
+## [0.3.0] - 2021-08-26
 ### Changes
 - Moved namespace from to `icanhazstring\FoundryBundle`
 - Rename bundle class to `FoundryBundle`
