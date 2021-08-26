@@ -1,6 +1,6 @@
 # foundry-bundle
 
-Delivers `zenstruck/foundry` alongside some additional configs and compile passes.
+Delivers `zenstruck/foundry` alongside some additional configs and compiler passes.
 to avoid some common problems when using `zenstruck/foundry` with symfony components.
 
 ## Installation
@@ -16,11 +16,11 @@ in the `config/bundles.php` file of your project:
 ```php
 return [
     // ...
-    icanhazstring\Foundry\Bundle\FoundryBundle::class => ['test' => true],
+    icanhazstring\FoundryBundle\FoundryBundle::class => ['test' => true],
 ];
 ```
 
 ## Suggestions
 - https://github.com/tseho/doctrine-assigned-identity (`tseho/doctrine-assigned-identity`)
 
-  This package allows you manually assign IDs to a Doctrine entity, even when the entity uses the stategies AUTO, SEQUENCE, IDENTITY or UUID.
+  This package allows you to manually assign IDs to a Doctrine entity, even when the entity uses the stategies AUTO, SEQUENCE, IDENTITY or UUID.
