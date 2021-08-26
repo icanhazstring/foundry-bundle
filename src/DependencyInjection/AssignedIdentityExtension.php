@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace icanhazstring\Foundry\Bundle\DependencyInjection;
+namespace icanhazstring\FoundryBundle\DependencyInjection;
 
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
@@ -15,7 +15,7 @@ final class AssignedIdentityExtension extends Extension
     {
         $loader = new YamlFileLoader(
             $container,
-            new FileLocator(__DIR__ . '/../Resources/config')
+            new FileLocator(__DIR__ . '/../../config')
         );
         $loader->load('assigned_identity.yaml');
     }

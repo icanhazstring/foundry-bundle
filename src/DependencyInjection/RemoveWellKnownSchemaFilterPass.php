@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace icanhazstring\Foundry\Bundle\DependencyInjection;
+namespace icanhazstring\FoundryBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface;
 use Symfony\Component\DependencyInjection\ContainerBuilder;

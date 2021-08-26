@@ -12,6 +12,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 ### Security
 
+## [0.3.0] - TBA
+### Changes
+- Moved namespace from to `icanhazstring\FoundryBundle`
+- Rename bundle class to `FoundryBundle`
+
 ## [0.2.0] - 2021-06-15
 ### Changed
 - Renamed package to `icanhazstring/foundry-bundle` as `bundle` already described symfony packages

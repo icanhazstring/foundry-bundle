@@ -2,15 +2,14 @@
 
 declare(strict_types=1);
 
-namespace icanhazstring\Foundry\Bundle;
+namespace icanhazstring\FoundryBundle;
 
-use icanhazstring\Foundry\Bundle\DependencyInjection\AssignedIdentityExtension;
-use icanhazstring\Foundry\Bundle\DependencyInjection\DoctrineAssignedIdentityPass;
-use icanhazstring\Foundry\Bundle\DependencyInjection\RemoveWellKnownSchemaFilterPass;
+use icanhazstring\FoundryBundle\DependencyInjection\AssignedIdentityExtension;
+use icanhazstring\FoundryBundle\DependencyInjection\RemoveWellKnownSchemaFilterPass;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-final class SymfonyFoundryBundle extends Bundle
+final class FoundryBundle extends Bundle
 {
     public function build(ContainerBuilder $container)
     {
